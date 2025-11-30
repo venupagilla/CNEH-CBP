@@ -1,0 +1,21 @@
+# Backend Python dependencies
+# Pin versions based on current virtual environment
+fastapi==0.121.0
+uvicorn==0.38.0
+cryptography==46.0.3
+pycryptodome==3.23.0
+argon2-cffi==25.1.0
+bcrypt==5.0.0
+pypdf2==3.0.1
+python-docx==1.2.0
+python-multipart==0.0.20
+
+# FastAPI transitive dependencies (normally auto-installed, pinned here for reproducibility)
+starlette==0.49.3
+pydantic==2.12.4
+pydantic-core==2.41.5
+typing-extensions==4.15.0
+anyio==4.11.0
+idna==3.11
+h11==0.16.0
+colorama==0.4.6
