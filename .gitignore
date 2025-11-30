@@ -1,0 +1,148 @@
+# .gitignore - generic project ignore rules (Windows/macOS/Linux, common tools & languages)
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.lnk
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+# swap files
+.*.swp
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+.env.local
+.env.*.local
+secrets.yml
+credentials
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editor / IDE
+.vscode/
+.history/
+.idea/
+*.iml
+*.iws
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+.pnp/
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+ENV/
+cneh/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.pytest_cache/
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.class
+target/
+out/
+
+# Maven / Gradle
+.mvn/
+build/
+.gradle/
+gradle-app.setting
+
+# C/C++ / native
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.dylib
+*.out
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+
+# Packaging
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# IDE specific / others
+*.code-workspace
+.vagrant/
+*.log.*
+*.cache
+cache/
+tmp/
+temp/
+
+# Coverage / test results
+coverage/
+*.lcov
+test-results/
+*.tap
+
+# Generated files
+dist/
+build/
+generated/
+bower_components/
+
+# Ignore local OS/Editor metadata from cloud-sync providers
+~$*
+~*.tmp
+
+# Misc
+thumbs.db
+
+# Project-specific
+# Local Python virtual environment directory
+cneh/
+# Backend temporary artifacts
+backend/temp/
